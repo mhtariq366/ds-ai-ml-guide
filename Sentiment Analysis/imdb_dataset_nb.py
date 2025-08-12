@@ -7,16 +7,17 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 #   reading the file
-df = pd.read_csv('ds-ai-ml/IMDB Dataset.csv')
+df = pd.read_csv('Sentiment Analysis/datasets/IMDB Dataset.csv')
 
-# print(df.groupby('sentiment').describe())
+#   describe sentiment count
+print(df.groupby('sentiment').describe())
 
 df['label'] = df['sentiment'].apply(lambda x: 1 if 'positive' in x else 0)
 
-# print(df.head())
-
+#   split dataset into training and testing data. Train is 80% while test is 20%
 train_x, test_x, train_y, test_y = train_test_split(df.review, df.label, test_size=0.2)
 
+#   vectorize textual data, to represent them in numbers
 vect = CountVectorizer()
 train_x_count = vect.fit_transform(train_x)
 
