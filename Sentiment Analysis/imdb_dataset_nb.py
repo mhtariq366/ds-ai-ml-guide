@@ -1,5 +1,7 @@
 """
 Sentiment Analysis on IMDB Dataset, using Multinomial Naive Bayes from sklearn library.
+The naive bayes from sklearn is run on imdb dataset. the dataset contains two columns, review, and its label i.e., positive or negative. before running the model, litlle preprocessing is done. 
+comments above each line is written to explain the purpose of said lines. 
 """
 import pandas as pd
 from sklearn.model_selection import train_test_split
