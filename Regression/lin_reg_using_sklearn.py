@@ -5,7 +5,7 @@ from sklearn import linear_model
 from scipy import stats
 import pickle
 
-df = pd.read_csv('Regression/datasets/lin_reg.csv')
+df = pd.read_csv('Datasets/lin_reg.csv')
 
 lin_reg = linear_model.LinearRegression()
 

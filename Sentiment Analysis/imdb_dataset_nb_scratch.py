@@ -3,7 +3,7 @@
 from collections import defaultdict
 import re
 
-with open('Sentiment Analysis/datasets/IMDB Dataset.csv', 'r') as f:
+with open('Datasets/IMDB Dataset.csv', 'r') as f:
     lines = f.readlines()
 
 n = int(0.8 * (len(lines)-1))

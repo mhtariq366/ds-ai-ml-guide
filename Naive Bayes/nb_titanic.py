@@ -3,7 +3,7 @@ import math
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 
-df = pd.read_csv('Naive Bayes/datasets/train.csv')
+df = pd.read_csv('Datasets/train.csv')
 
 df.drop(['Name', 'SibSp', 'Parch', 'Ticket', 'Cabin', 'Embarked'], axis='columns', inplace=True)
 

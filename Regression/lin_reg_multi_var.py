@@ -4,7 +4,7 @@ from sklearn import linear_model
 import math
 from scipy import stats
 
-df = pd.read_csv('Regression/datasets/lin_reg_multi_var.csv')
+df = pd.read_csv('Datasets/lin_reg_multi_var.csv')
 #print(df)
 
 median_bed = math.floor(df['bed'].median())

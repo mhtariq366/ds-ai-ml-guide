@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 #   reading the file
-df = pd.read_csv('Sentiment Analysis/datasets/IMDB Dataset.csv')
+df = pd.read_csv('Datasets/IMDB Dataset.csv')
 
 #   describe sentiment count
 print(df.groupby('sentiment').describe())
