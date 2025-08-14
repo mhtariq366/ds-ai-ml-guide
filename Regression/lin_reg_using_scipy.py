@@ -7,7 +7,7 @@ the functions takes two 1D arrays and returns 5 values.
 Prediction on new data can be done manually using the mx+c formula.
 
 for Machine Learning based applications. preferably use the linear regression from linear model in sklearn. 
-its done in file named lin_reg.py in the same folder. 
+its done in file named lin_reg_using_sklearn in the same folder. 
 """
 import matplotlib.pyplot as plt
 import random
