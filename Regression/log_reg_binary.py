@@ -13,8 +13,8 @@ df = pd.read_csv("Datasets/log_reg.csv")
 
 print(df.info())
 
-#plt.scatter(df.age, df.gaming)
-#plt.show()
+plt.scatter(df.age, df.gaming)
+plt.show()
 
 #   by looking at the scatter plot from above lines, we can see that linear reg wont work on this dataset.
 #   in logistic regression, we are using sigmoid function: 1/( 1 + e^(-z) )
