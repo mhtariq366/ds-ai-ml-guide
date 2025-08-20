@@ -29,3 +29,6 @@ print(X_test)
 print(log_model.predict(X_test))
 
 print(log_model.score(X_test, y_test))
+
+
+print(log_model.predict_proba(X_test))
