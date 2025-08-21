@@ -6,6 +6,7 @@ every dataset, every case study has its own preference of solution type.
 """
 
 import pandas as pd
+from sklearn.impute import SimpleImputer
 
 df = pd.read_csv('Datasets/preprocessing01.csv')
 
@@ -38,3 +39,12 @@ print(mean_df)
 median_df = df.salary.fillna(df.salary.median())
 print(median_df)
 
+"""
+Solution 3: Fill the missing values with either mean, mode or median of respective column.
+But using the imputer
+"""
+imputer = SimpleImputer(strategy='median')
+imputer = imputer.fit(df[['age']])
+df.age = imputer.transform(df[['age']])
+
+print(df)
