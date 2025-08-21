@@ -1,5 +1,6 @@
 """
-
+Apart from one hot encoding, another way to convert the data into numerical format is label encoder.
+we'll discuss it below.
 """
 
 import pandas as pd

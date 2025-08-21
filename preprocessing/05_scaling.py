@@ -1,5 +1,6 @@
 """
 Scaling the column values into a specific range.
+This way two or more columns will have values in a specific range instead of enormously different values.
 """
 import pandas as pd
 from sklearn.preprocessing import StandardScaler

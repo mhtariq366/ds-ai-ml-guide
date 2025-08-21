@@ -1,3 +1,6 @@
+"""
+There are different ways of implementing one hot encoding, we ll discuss them one by one.
+"""
 import pandas as pd
 from sklearn import linear_model
 
