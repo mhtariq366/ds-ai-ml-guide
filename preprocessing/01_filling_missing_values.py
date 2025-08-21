@@ -26,7 +26,9 @@ print(deleted_df)
 
 """
 Solution 2: Fill the missing values with either mean, mode or median of respective column.
-
+Mean is often taken when dataset is big
+Median is preferred when a smaller dataset is used
+Mode is useful in repetitive values
 """
 #   using mean value for age
 mean_df = df.age.fillna(df.age.mean())
