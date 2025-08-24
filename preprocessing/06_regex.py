@@ -66,3 +66,9 @@ print(re.findall(r'(\d)',dataset))
 #   findall digits in groups
 print(re.findall(r'(\d+)',dataset))
 
+#   findall emails in the format a-z@a-z.a-z
+print(re.findall(r'(\w+@\w+\.\w+)',dataset))
+
+
+
+
