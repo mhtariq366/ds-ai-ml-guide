@@ -1,9 +1,17 @@
 *Data Science, Artificial Intelligence, Machine Learning*
 
-- Preprocessing
-  - Loading data
-
-- Naive Bayes
-- Regression
+- preprocessing
+  - loading data
+  - filling in missing values
+  - one hot encoding
+  - label encoding
+  - train test split
+  - scaling numerical data
+  - regular expressions
+- regression
+  - linear regression, single and multi
+  - logistic regression, binary and multi
 - Sentiment Analysis
-- 
+  - implementation on different data sets
+- formats
+  - json
