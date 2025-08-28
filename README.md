@@ -11,7 +11,11 @@
 - regression
   - linear regression, single and multi
   - logistic regression, binary and multi
+- clustering
+  - kmeans
+  - elbow method
 - Sentiment Analysis
   - implementation on different data sets
+  - from scratch and using sklearn
 - formats
   - json
