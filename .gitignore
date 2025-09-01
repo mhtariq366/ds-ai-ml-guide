@@ -257,5 +257,10 @@ build/
 env/
 venv/
 
-
+.png
+.PNG
 .DS_Store
+*.jpg
+*.jpeg
+*.png
+*.gif
