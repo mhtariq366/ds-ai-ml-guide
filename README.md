@@ -19,3 +19,5 @@
   - from scratch and using sklearn
 - formats
   - json
+  - csv
+  - xml
