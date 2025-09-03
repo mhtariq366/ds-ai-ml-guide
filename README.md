@@ -17,6 +17,8 @@
 - Sentiment Analysis
   - implementation on different data sets
   - from scratch and using sklearn
+- digital image processing
+  - reading an image
 - formats
   - json
   - csv
