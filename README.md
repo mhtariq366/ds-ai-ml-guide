@@ -11,6 +11,8 @@
 - regression
   - linear regression, single and multi
   - logistic regression, binary and multi
+- classification
+  - knn
 - clustering
   - kmeans
   - elbow method
