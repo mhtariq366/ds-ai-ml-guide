@@ -17,6 +17,7 @@
 - Sentiment Analysis
   - implementation on different data sets
   - from scratch and using sklearn
+- natural language processing
 - digital image processing
   - reading an image
 - formats
